@@ -1,0 +1,17 @@
+@import url(assets/css/cabecalho.css);
+
+:root {
+    --fonte-principal: 'Raleway', sans-serif;
+    --azul: #2A7AE4;
+    --cinza-escuro: #464646;
+    --cinza-claro: #A2A2A2;
+    --branco: #FFFFFF;
+    --cor-fundo:  #F5F5F5;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+    background: var(--cor-fundo);
+}
