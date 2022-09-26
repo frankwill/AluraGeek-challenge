@@ -1,4 +1,5 @@
 @import url(assets/css/cabecalho.css);
+@import url(assets/css/banner.css);
 
 :root {
     --fonte-principal: 'Raleway', sans-serif;
