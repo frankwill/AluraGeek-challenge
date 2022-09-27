@@ -9,6 +9,7 @@
     font-size: 22px;
     font-weight: 700;
     color: var(--cinza-escuro);
+    
 }
 
 .produtos__link {
@@ -25,7 +26,7 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 1.5rem;
-    margin: 0 10%;
+    padding: 0 1rem;
 }
 
 .conteudo__descricao {
