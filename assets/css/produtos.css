@@ -1,0 +1,23 @@
+.produtos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.produtos__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.produtos__link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--azul);  
+    background: url(../img/seta-direita.svg) no-repeat;
+    background-position: 6rem;
+    padding: 2em;
+}
+
