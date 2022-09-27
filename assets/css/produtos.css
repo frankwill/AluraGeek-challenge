@@ -1,8 +1,8 @@
-.produtos {
+.produtos__container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
+    padding: 1rem;
 }
 
 .produtos__titulo {
@@ -17,15 +17,15 @@
     font-weight: 700;
     color: var(--azul);  
     background: url(../img/seta-direita.svg) no-repeat;
-    background-position: 6rem;
-    padding: 2em;
+    background-position: 4rem;
+    padding-right: 2rem;
 }
 
 .conteudo__lista {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+    margin: 0 10%;
 }
 
 .conteudo__descricao {
